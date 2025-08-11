@@ -85,6 +85,24 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "HeavySkil",
+                    "type": "Button",
+                    "id": "00686f2b-c5bf-4433-ae36-b47b0db64b4b",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "HoldSkill",
+                    "type": "Button",
+                    "id": "824ad113-7e81-4183-a6f2-8ccbcfb41b5c",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
@@ -470,6 +488,28 @@
                     "processors": "",
                     "groups": "Keyboard&Mouse",
                     "action": "Crouch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "35eb57cd-c591-4499-a732-8b15d4d9d577",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "HeavySkil",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1de56cbc-cf53-4752-8c4d-9376de2bff4b",
+                    "path": "<Mouse>/press",
+                    "interactions": "Hold(duration=4,pressPoint=2)",
+                    "processors": "",
+                    "groups": ";Keyboard&Mouse",
+                    "action": "HoldSkill",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
