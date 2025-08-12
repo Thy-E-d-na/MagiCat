@@ -5,7 +5,7 @@ public class Pycromancy : MonoBehaviour
     //grenade
     [SerializeField] private GameObject _burnPrefab;
     [SerializeField] private float _burnR;
-    /[SerializeField] private float _explosionForce;
+    [SerializeField] private float _explosionForce;
 
     private void OnCollisionEnter(Collision collision)
     {
